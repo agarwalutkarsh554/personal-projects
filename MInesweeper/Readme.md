@@ -6,8 +6,10 @@ Minesweeper is a puzzle game that consists of a grid of cells, where some of the
 In this 3x3 Minesweeper game, for example, the three 1 values indicate that each of those cells has one neighboring cell that is a mine. The four 0 values indicate that each of those cells has no neighboring mine.
 
 ## Requirements
-.pygame
-.python
+
+- **Python**
+- **Pygame**
+
 
 ## Usage
 
@@ -21,4 +23,4 @@ https://user-images.githubusercontent.com/37051428/132868214-017e02e3-d3f5-4a28-
 
 
 ## Description
-This Minesweeper game is different form the traditional minesweeper games.Majorly because of the fact that there is an AI there to play the game with you. You can play the game solo, with the help of an AI or just let the AI do the work.
+In this implementation the user can allow the AI agent to play minesweeper on its behalf.When you run your AI (as by clicking “AI Move”), note that it will not always win! There will be some cases where the AI must guess, because it lacks sufficient information to make a safe move. This is to be expected. runner.py will print whether the AI is making a move it believes to be safe or whether it is making a random move.
